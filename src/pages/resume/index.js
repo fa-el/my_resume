@@ -13,7 +13,8 @@ export default function resume() {
   const myExperience = [
     {title: '(Contract) Software Engineering', year: '2019-Until Now', address: 'Management Information System of Prof. Dr. R. D. Kandou Manado Central Hospital Manado', jobDesk: [
       'Working as a team on developing Hospital Service Applications',
-      'Develops numerous Hospital Back Office Applications (Human Resources, Remuneration, Planning, Procurement, and Payment Apps)'
+      'Develops numerous Hospital Back Office Applications (Human Resources, Remuneration, Planning, Procurement, and Payment Apps)',
+      'Develop mobile application'
     ]},
     {title: '(Intern) Mobile Programmer', year: '2018', address: 'Karyampat Podhouse Manado', jobDesk: [
       'Creating Point of Sale mobile application'
@@ -21,7 +22,7 @@ export default function resume() {
   ];
 
   return <Layout headerTop={true} activeNav={'Resume'}>
-  <div className="resume container mx-auto">
+  <div className="portofolio container mx-auto">
     <div className="section-title">
       <h2>About</h2>
       <p>CHECK MY RESUME</p>
