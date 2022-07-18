@@ -616,7 +616,7 @@ section .container {
 }
 .resume .resume-item h5 {
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.4);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -922,7 +922,7 @@ section .container {
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.4);
 }
 .contact .info-box i.bx {
   font-size: 24px;
@@ -930,7 +930,7 @@ section .container {
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.4);
 }
 .contact .info-box h3 {
   font-size: 20px;
@@ -962,12 +962,14 @@ section .container {
 }
 .contact .email-form {
   padding: 30px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.4);
 }
 .contact .email-form .error-message {
-  display: none;
-  background: rgba(255, 255, 255, 0.08);
-  background: #ed3c0d;
+  /* display: none; */
+  /* background: rgba(255, 255, 255, 0.08); */
+  border: #ed3c0d solid 1px;
+  border-radius: 5px;
+  color: #ed3c0d;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -976,15 +978,17 @@ section .container {
   margin-top: 25px;
 }
 .contact .email-form .sent-message {
-  display: none;
-  background: rgba(255, 255, 255, 0.08);
-  background: #18d26e;
+  /* display: none; */
+  /* background: rgba(255, 255, 255, 0.08); */
+  border: #18d26e solid 1px;
+  border-radius: 5px;
+  color: #18d26e;
   text-align: center;
   padding: 15px;
   font-weight: 600;
 }
 .contact .email-form .loading {
-  display: none;
+  /* display: none; */
   background: rgba(255, 255, 255, 0.08);
   text-align: center;
   padding: 15px;

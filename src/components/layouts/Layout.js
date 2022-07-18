@@ -14,8 +14,6 @@ export default function Layout({ children, headerTop=false, activeNav='Home' }) 
     { name: 'Contact', link: '/contact', current: false },
   ];
 
-  console.log({activeNav})
-
   return (
     <>
       {/* <Navbar /> */}

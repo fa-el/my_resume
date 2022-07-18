@@ -5,13 +5,13 @@ export default function resume() {
 
   const myEducation = [
     {title: 'Bachelor of Computer Science', year: '2013-2018', address: 'Informatics Engineering Studi Program, Faculty of Engineering at Sam Ratulangi University Manado, Indonesia'},
-    {title:'Senior High School', year: '2010-2012', address: 'Public High School 9 Manado, Indonesia'},
-    {title:'Junior High School', year: '2007-2009', address: 'Catholic Middle School St. Rafael Manado, Indonesia'},
-    {title:'Elementary School', year: '2001-2006', address: 'Advent Primary School Manado, Indonesia'},
+    {title:'Senior High School', year: '2010-2013', address: 'Public High School 9 Manado, Indonesia'},
+    {title:'Junior High School', year: '2007-2010', address: 'Catholic Middle School St. Rafael Manado, Indonesia'},
+    {title:'Elementary School', year: '2001-2007', address: 'Advent Primary School Manado, Indonesia'},
   ];
 
   const myExperience = [
-    {title: '(Contract) Software Engineering', year: '2019-Until Now', address: 'Management Information System of Prof. Dr. R. D. Kandou Manado Central Hospital Manado', jobDesk: [
+    {title: '(Contract) Software Engineering', year: '2019-Now', address: 'Management Information System of Prof. Dr. R. D. Kandou Manado Central Hospital Manado', jobDesk: [
       'Working as a team on developing Hospital Service Applications',
       'Develops numerous Hospital Back Office Applications (Human Resources, Remuneration, Planning, Procurement, and Payment Apps)',
       'Develop mobile application'
